@@ -15,7 +15,7 @@ import numpy as np
 import joblib
 
 
-model = joblib.load('knn.joblib')
+model = joblib.load('knn(1).joblib')
 
 # Step 4: Streamlit layout and user input for flower dimensions
 st.title("Iris Flower Species Prediction")
